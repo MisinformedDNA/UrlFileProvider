@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+            <th>Source</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AllowHosts</td>
+            <td>@Model.AllowedHosts</td>
+            <td>appsettings.json</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>@Model.PackageName</td>
+            <td>JSON file on web</td>
+        </tr>
+        <tr>
+            <td>Repository:Type</td>
+            <td>@Model.RepoType</td>
+            <td>JSON file on web</td>
+        </tr>
+    </tbody>
+</table>
