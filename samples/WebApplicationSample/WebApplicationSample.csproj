@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\YellowCounter.FileProvider.Url\YellowCounter.FileProvider.Url.csproj" />
+    <ProjectReference Include="..\..\src\YellowCounter.FileProvider.Url\YellowCounter.FileProvider.Url.csproj" />
   </ItemGroup>
 
 </Project>
