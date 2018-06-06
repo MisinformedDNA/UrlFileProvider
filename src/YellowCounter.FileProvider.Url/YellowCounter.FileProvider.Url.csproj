@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.1</Version>
+    <Authors>Dan Friedman</Authors>
+    <Company>YellowCounter</Company>
+    <Product>UrlFileProvider</Product>
+    <Description>When adding settings for ASP.NET Core, you can use this to request config files on the web. Blazor is a key scenario for this functionality.</Description>
+    <PackageProjectUrl>https://github.com/MisinformedDNA/UrlFileProvider</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MisinformedDNA/UrlFileProvider</RepositoryUrl>
+    <PackageTags>asp.net core, Blazor, IFileProvider, FileProvider, ConfigurationProvider, ConfigurationSource, Configuration, settings, url , http</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
